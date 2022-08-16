@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_state_batch05/pages/calculator_button.dart';
 
 class HomePage extends StatefulWidget {
   final String msg;
@@ -22,7 +23,7 @@ class _HomePageState extends State<HomePage> {
           children: [
             Row(
               children: [
-
+                CalculatorButton(),
               ],
             )
           ],
